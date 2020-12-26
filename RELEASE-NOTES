@@ -1,0 +1,38 @@
+curl and libcurl 7.69.2
+
+ Public curl releases:         191
+ Command line options:         230
+ curl_easy_setopt() options:   270
+ Public functions in libcurl:  82
+ Contributors:                 2135
+
+This release includes the following changes:
+
+ o
+
+This release includes the following bugfixes:
+
+ o configure: convert -I to -isystem as a last step [2]
+ o configure: document 'compiler_num' for gcc [4]
+ o configure: fix -pedantic-errors for GCC 5 and later [3]
+ o Makefile: run the cd commands in a subshell [1]
+ o tests/data: Fix some XML formatting issues in test cases
+
+This release includes the following known bugs:
+
+ o see docs/KNOWN_BUGS (https://curl.haxx.se/docs/knownbugs.html)
+
+This release would not have looked like this without help, code, reports and
+advice from friends like these:
+
+  Dan Fandrich, Daniel Stenberg, Muhammad Herdiansyah, Stepan Efremov,
+  (4 contributors)
+
+        Thanks! (and sorry if I forgot to mention someone)
+
+References to bug reports and discussions on issues:
+
+ [1] = https://curl.haxx.se/bug/?i=5073
+ [2] = https://curl.haxx.se/bug/?i=5060
+ [3] = https://curl.haxx.se/bug/?i=5067
+ [4] = https://curl.haxx.se/bug/?i=5069
